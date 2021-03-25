@@ -1,7 +1,6 @@
 # Polymorphism-Virtual-Function-Templated-Class
 
 Avishai Rostamian
-Question 11 CS 313
 
   This program is designed to take advantage of polymorphism, classes, subclasses, and virtual functions. Through a compilation of subclasses made up of a parent class we are able to create a generic constructor and have it be used for specific cases. In this example the generic constructor is made from our Restaurant class in which we establish attributes to a restaurant including its name, price, and food menu. We are able to modify the information for each subclass or restaurant through the main by taking advantage of an override function. This function modifies the data as requested through the use of a templated class. The template can take in any restaurant and run the override function inputting the specific data as requested. The function as well prints out all the information for the specific subclass or in this case restaurant.
 
